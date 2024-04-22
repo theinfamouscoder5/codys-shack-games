@@ -1,7 +1,4 @@
-.startbutton {
-  transition-duration: 3s;
-}
-
-.startbutton:hover {
+button:hover {
+  transition: 0.2s ease-in;
   background-color: #0e4f26;
 }
