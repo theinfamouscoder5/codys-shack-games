@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" type="css" href="home.css" />
+    <link rel="stylesheet" type="css" href="/home.css" />
     <meta name="keywords" content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git" />
     <meta property="og:title" content="Welcome to 3kh0 lite, a lightweight, fast, and clean game site." />
     <meta property="og:site_name" content="3kh0.github.io" />
@@ -11,22 +11,71 @@
     <meta name="author" content="3kh0" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cody's Shack'</title>
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    <title>Cody's Shack</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+      .blur {
+        background-color: rgba(100, 100, 100, 0.4) !important;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        padding: 20px;
+        border-radius: 20px;
+        -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+      }
+      .background {
+        background: url(https://res.cloudinary.com/mayashavin/image/upload/w_500,f_auto,q_auto/v1597000013/examples/cat_relaxing) no-repeat center;
+        background-size: cover;
+      }
+    </style>
   </head>
-  <body style="color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-image: url('codys-shack-background.gif'); background-repeat: no-repeat; background-size: cover;">
+  <body style="color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('codys-shack-background.gif'); background-repeat: no-repeat; background-size: cover;" class="background""">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark blur">
+        <a class="navbar-brand" href="index.html" style="font-family: monospace;">cody's shack</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: monospace;">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>``
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+          </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
     <h1 style="font-size: 3em; text-align: center; font-family: monospace !important;">
       cody's shack
     </h1>
     <span id="subtitle" style="font-size: 1.5em;">...</span>
-    <p style="text-align: center; max-width: 600px; margin: 20px auto;">
+    <div style="text-align: center; max-width: 600px; margin: 20px auto;" class="blur">
       Welcome to 3kh0 lite, a lightweight, lightning fast, and simple game site.<br /><br />
       Yes, no tracking, no ads, no garbage. It is privacy-respecting and <b>DOES</b> have games.<br />
-      <a href="/projects.html" style="text-decoration: none;"><button style="cursor: pointer; background-color: #22c55e; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 20px; margin-top: 20px;" class="startbutton">Start playing!</button></a><br />
+      <a href="/projects.html" style="text-decoration: none;"><button style="cursor: pointer; color: white; padding: 15px 32px; text-align: center; font-size: 22px; border-radius: 20px; margin-top: 20px; font-family: monospace;" class="btn btn-primary">start playing</button></a><br />
       <br />
       <a href="/misc.html" style="text-decoration: none;"><button style="cursor: pointer; background-color: #b625cc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 20px; margin-top: 5px;">Tab Cloak and about:blank</button></a>
-    </p>
+    </div>
     <p style="text-align: center; max-width: 600px; margin: 20px auto;">
         &copy; 3kh0, 2024. All rights reserved. You are welcome to use and/or duplicate material from the <a href="https://github.com/3kh0/3kh0-lite" style="color: #22c55e;">GitHub repository</a> with proper credit to 3kh0.<br /><br />
         Contact Echo at <a href="mailto:echo-the-coder@tuta.io" style="color: #22c55e;">echo-the-coder@tuta.io</a>.
