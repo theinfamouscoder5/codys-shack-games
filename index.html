@@ -27,6 +27,65 @@
         background: url(https://res.cloudinary.com/mayashavin/image/upload/w_500,f_auto,q_auto/v1597000013/examples/cat_relaxing) no-repeat center;
         background-size: cover;
       }
+      
+      .glow-on-hover {
+        height: 50px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+      }
+
+      .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left:-2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+      }
+
+      .glow-on-hover:active {
+        color: #000
+      }
+
+      .glow-on-hover:active:after {
+        background: transparent;
+      }
+
+      .glow-on-hover:hover:before {
+        opacity: 1;
+      }
+
+      .glow-on-hover:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+
+      @keyframes glowing {
+        0% { background-position: 0 0; }
+        50% { background-position: 400% 0; }
+        100% { background-position: 0 0; }
+      }
     </style>
   </head>
   <body style="color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('codys-shack-background.gif'); background-repeat: no-repeat; background-size: cover;" class="background""">
@@ -44,7 +103,7 @@
               <li class="nav-item">
                   <a class="nav-link" href="projects.html">Games</a>
               </li>
-              <li class="nav-item">
+                    <li class="nav-item">
                   <a class="nav-link" href="misc.html">Settings</a>
               </li>
           </ul>
@@ -56,9 +115,9 @@
     </h1>
     <span id="subtitle" style="font-size: 1.5em;">...</span>
     <div style="text-align: center; max-width: 600px; margin: 20px auto;" class="blur">
-      <a href="https://tinyurl.com/codys-shack-games" title="Invite people to Cody's Shack using this link" style="color: #ffffff">tinyurl.com/codys-shack-games</a><br /><br />
+      <a href="https://tinyurl.com/codys-shack-games" title="Invite people to Cody's Shack using this link" style="color: #ffffff"><b>tinyurl.com/codys-shack-games</b></a><br /><br />
       Welcome to the new <b>Cody's Shack</b> site!<br />
-      <a href="/projects.html" style="text-decoration: none;"><button style="cursor: pointer; color: white; padding: 15px 32px; text-align: center; font-size: 22px; border-radius: 20px; margin-top: 20px; font-family: monospace;" class="btn btn-primary">start playing</button></a><br />
+      <a href="/projects.html" style="text-decoration: none;"><button style="cursor: pointer; color: white; padding: 10px 32px; text-align: center; font-size: 22px; border-radius: 20px; border-size: 0px; margin-top: 20px; font-family: monospace; outline: none; width: auto;" class="glow-on-hover">start playing</button></a><br />
       <br />
       <a href="/misc.html" style="text-decoration: none;"><button style="cursor: pointer; background-color: #b625cc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 20px; margin-top: 5px;">Tab Cloak and about:blank</button></a>
     </div>
