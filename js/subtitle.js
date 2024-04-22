@@ -6,7 +6,7 @@ function getRandomGreeting() {
     "You can read btw",
     "Made you look!",
     "Redbull gives you wings...",
-    "Since 2020!",
+    "Since 2023!",
     "As seen on TV!",
     "doot doot",
     "Cold as ice!",
