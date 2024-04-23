@@ -86,10 +86,18 @@
           transform: rotate(360deg);
         }
       }
+      .gameblur {
+        background-color: rgba(100, 100, 100, 0.4) !important;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+      }
       .blur {
         background-color: rgba(100, 100, 100, 0.4) !important;
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
+        padding: 20px;
+        border-radius: 20px;
         -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
       }
       .background {
@@ -209,7 +217,7 @@
           game.href = project.link;
             game.className = "game-link container";
             game.innerHTML = `
-            <div class="game-tile blur">
+            <div class="game-tile gameblur">
               <img class="game-icon" src="${project.imgSrc}" alt="icon" />
               <p class="game-title">${project.title}</p>
               </div>`;
@@ -231,7 +239,7 @@
             game.href = project.link;
             game.className = "game-link container";
             game.innerHTML = `
-            <div class="game-tile blur">
+            <div class="game-tile gameblur">
               <img class="game-icon" src="${project.imgSrc}" alt="icon" loading="lazy" />
               <p class="game-title">${project.title}</p>
               </div>`;
