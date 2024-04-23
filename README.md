@@ -1,9 +1,9 @@
-# 3kh0 *lite*
+# Cody's Shack
 
-![GitHub Repo size](https://img.shields.io/github/repo-size/3kh0/3kh0-lite?style=flat&label=Repo%20size)
-![GitHub Repo stars](https://img.shields.io/github/stars/3kh0/3kh0-lite?style=flat&label=Repo%20stars&color=yellow&link=https%3A%2F%2Fgithub.com%2F3kh0%2F3kh0-lite%2Fstargazers)
+![GitHub Repo size](https://img.shields.io/github/repo-size/theinfamouscoder5/codys-shack-games?style=flat&label=Repo%20size)
+![GitHub Repo stars](https://img.shields.io/github/stars/theinfamouscoder5/codys-shack-games?style=flat&label=Repo%20stars&color=yellow&link=https%3A%2F%2Fgithub.com%2F3kh0%2F3kh0-lite%2Fstargazers)
 
-Welcome to 3kh0 lite, a lightweight, fast, clean game site.
+Welcome to Cody's Shack, a self-deployable, good-looking game site based off of 3kh0 Lite.
 
 ## Features
 - No tracking
@@ -25,7 +25,3 @@ This site is supposed to be simple yet extendable. You can edit this to your hea
 
 All the configuration is done in the `config` folder.
 - `games.json`: It contains the games' names, icons, and link.
-
-## To-Do
-- Make it easier to add games
-- Make a better README.md
