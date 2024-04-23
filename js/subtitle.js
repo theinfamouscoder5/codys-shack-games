@@ -71,7 +71,8 @@ function getRandomGreeting() {
     "Mission failed, we will get them next time",
     "NUKE INCOMING!",
     "I spent too much time making these",
-    "Subscribe to TeamZ7537 becauses hes cringe"
+    "Subscribe to TeamZ7537 becauses hes cringe",
+    "Subscribe to MrTutel because why not"
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
