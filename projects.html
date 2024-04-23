@@ -40,15 +40,23 @@
         text-decoration: none;
       }
       .game-tile {
-        background-color: #949494;
-        height: 400px;
-        width: 300px;
-        border-radius: 30px;
+        background-color: #383333  ;
+        height: 330px;
+        width: 290px;
+        border-radius: 20px;
+        transition: transform 0.2s ease-in-out;
+        transition-duration: 0.4s;
+      }
+      .game-tile:hover {
+        transform: scale(1.03);
+        cursor: pointer;
       }
       .game-icon {
         border-radius: 30px;
-        width: 300px;
-        height: 300px;
+        width: 210px;
+        height: 210px;
+        top: 5%;
+        position: relative;
       }
       .game-title {
         font-size: 30px;
@@ -56,6 +64,7 @@
         color: #000000;
         text-align: center;
         margin: auto;
+        margin-top: 35px;
       }
       .flex-container {
         display: flex;
@@ -81,8 +90,6 @@
         background-color: rgba(100, 100, 100, 0.4) !important;
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
-        padding: 20px;
-        border-radius: 20px;
         -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
       }
       .background {
@@ -202,7 +209,7 @@
           game.href = project.link;
             game.className = "game-link container";
             game.innerHTML = `
-            <div class="game-tile">
+            <div class="game-tile blur">
               <img class="game-icon" src="${project.imgSrc}" alt="icon" />
               <p class="game-title">${project.title}</p>
               </div>`;
@@ -224,7 +231,7 @@
             game.href = project.link;
             game.className = "game-link container";
             game.innerHTML = `
-            <div class="game-tile">
+            <div class="game-tile blur">
               <img class="game-icon" src="${project.imgSrc}" alt="icon" loading="lazy" />
               <p class="game-title">${project.title}</p>
               </div>`;
