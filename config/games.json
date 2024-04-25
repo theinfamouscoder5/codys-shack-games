@@ -565,6 +565,11 @@
     "title": "Solitare"
   },
   {
+    "link": "projects/snow-rider-3d/index.html",
+    "imgSrc": "projects/solitaire/snowrider.jpg",
+    "title": "Snow Rider 3D"
+  },
+  {
     "link": "projects/sort-the-court/index.html",
     "imgSrc": "projects/sort-the-court/img/splash.png",
     "title": "Sort The Court"
