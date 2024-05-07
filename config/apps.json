@@ -8,5 +8,40 @@
     "link": "apps/twitch.html",
     "imgSrc": "https://www.freepnglogos.com/uploads/purple-twitch-logo-png-18.png",
     "title": "Twitch"
-  }
+  },
+  {
+    "link": "apps/discord.html",
+    "imgSrc": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/198142ac-f410-423a-bf0b-34c9cb5d9609/dbtif5j-60306864-d6b7-44b6-a9ff-65e8adcfb911.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5ODE0MmFjLWY0MTAtNDIzYS1iZjBiLTM0YzljYjVkOTYwOVwvZGJ0aWY1ai02MDMwNjg2NC1kNmI3LTQ0YjYtYTlmZi02NWU4YWRjZmI5MTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pRh5DK_cxlZ6SxVPqoUSsSNo1fqksJVP6ECGVUi6kmE",
+    "title": "Discord"
+  },
+  {
+    "link": "apps/spotify.html",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
+    "title": "Spotify"
+  },
+  {
+    "link": "apps/twitter.html",
+    "imgSrc": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20230724104554.jpg",
+    "title": "X (Twitter)"
+  },
+  {
+    "link": "apps/google.html",
+    "imgSrc": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
+    "title": "Google"
+  },
+  {
+    "link": "apps/tiktok.html",
+    "imgSrc": "https://cdn.pixabay.com/photo/2022/02/09/08/35/tiktok-7002882_640.png",
+    "title": "TikTok"
+  },
+  {
+    "link": "apps/coolmathgames.html",
+    "imgSrc": "https://i2.wp.com/reagan.mpsomaha.org/sites/reagan.mpsomaha.org/files/styles/square/public/image/coolmath_2.jpg?itok=g7I1VRrh",
+    "title": "Cool Math Games"
+  },
+  {
+    "link": "apps/reddit.html",
+    "imgSrc": "https://static-00.iconduck.com/assets.00/reddit-icon-256x256-229zzdno.png",
+    "title": "Reddit"
+  },
 ]
