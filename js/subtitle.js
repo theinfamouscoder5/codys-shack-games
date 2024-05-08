@@ -72,7 +72,8 @@ function getRandomGreeting() {
     "NUKE INCOMING!",
     "I spent too much time making these",
     "Subscribe to TeamZ7537 becauses hes cringe",
-    "Subscribe to MrTutel because why not"
+    "Subscribe to MrTutel because why not",
+    "Brandon O`Dell is an idiot"
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
