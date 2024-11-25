@@ -16,13 +16,7 @@ Welcome to Cody's Shack, a self-deployable, good-looking game site based off of 
 
 ## Deploy it yourself
 
-This site is supposed to be simple yet extendable. You can edit this to your heart's content, but I respectfully ask that you credit me somehow.
-1. Fork this repo (give star pls :D)
-2. Edit the files. (mainly the files in the `config` folder)
-3. Optionally, add more games. ([Get some here](https://gitlab.com/3kh0/3kh0-assets))
-4. Host it on your server or any static web host.
-5. Enjoy!
-It is recomened to deploy to Cloudflare. To do so, just fork this repo, sign in to Cloudflare, and deploy the repo as Pages (not Worker). Leave `build command` and `build output directory` blank.
+This has been removed due to Cody not wanting people to try and claim this as there own
 
 > A known issue is game files; because some games are massive, they will fail on many services. There is no straightforward fix, but you can try to host the files on your server.
 ## Configuration
